@@ -3,6 +3,8 @@ import java.util.*;
 // Graph using adjacency list representation
 // This is an undirected graph
 
+/*
+
 public class G1{
     static class Edge{
         int src;
@@ -53,4 +55,20 @@ public class G1{
         
 
     }
+}
+
+*/
+
+
+public class G1{
+    static class Edge{
+        int src;
+        int des;
+        public Edge(int s, int d){
+            this.src  = s;
+            this.des = d;
+        }
+    }
+
+    
 }
